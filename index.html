@@ -1,0 +1,624 @@
+<!DOCTYPE html><html lang="en" style="--timing: 0.5s; --easing: ease; --scales: 1; --changing: hsla(13.333333333333334, 100%, 50%, 0.999);"><head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=5, user-scalable=1, viewport-fit=cover">
+        <meta name="description" content="Allies Marketing">
+        <link rel="preload" href="fonts/PolySans-Bulky.woff2" as="font" crossorigin="anonymous">
+        <link rel="preload" href="fonts/TTNormsProVarRoman.woff2" as="font" crossorigin="anonymous">
+        <link rel="shortcut icon" href="images/favicon.svg">
+        <title>Allies for Talents and Brands - The Gaming Influencer Marketing Agency</title>
+
+<style>
+body { cursor: url("images/pointa.png"), default;} a.anchor, h3.tab, .custom { cursor: url("images/pointer.png"), pointer;} 
+@font-face {font-family: "esmeralda"; font-display: swap; src: url('fonts/PolySans-Bulky.woff2');}
+@font-face {font-family: "norms"; font-display: swap; src: url('fonts/TTNormsProVarRoman.woff2');}    
+:root {--paddingxs:calc(2.5vw + 1vh); --paddings:calc(5vw + 2vh); --paddingm:calc(10vw + 4vh); --bgcolor:hsl(228, 14.29%, 6.86%); --fgcolor:white; --fg2:#898995; --stroke-opacity:0.2; --hover:white; --selecttext:#101115; --selectbg:rgba(255,255,255,0.99);--gradient:linear-gradient( to bottom, hsla(228, 14.29%, 6.86%, 0) 0%, hsla(228, 14.29%, 6.86%, 0.013) 4.8%,
+    hsla(228, 14.29%, 6.86%, 0.049) 9.8%, hsla(228, 14.29%, 6.86%, 0.104) 14.8%, hsla(228, 14.29%, 6.86%, 0.175) 20%,
+    hsla(228, 14.29%, 6.86%, 0.259) 25.5%, hsla(228, 14.29%, 6.86%, 0.352) 31.2%, hsla(228, 14.29%, 6.86%, 0.45) 37.1%,
+    hsla(228, 14.29%, 6.86%, 0.55) 43.4%, hsla(228, 14.29%, 6.86%, 0.648) 50.1%, hsla(228, 14.29%, 6.86%, 0.741) 57.2%,
+    hsla(228, 14.29%, 6.86%, 0.825) 64.7%, hsla(228, 14.29%, 6.86%, 0.896) 72.7%, hsla(228, 14.29%, 6.86%, 0.951) 81.2%,
+    hsla(228, 14.29%, 6.86%, 0.987) 90.3%, hsl(228, 14.29%, 6.86%) 100% );
+    --gradient2:linear-gradient( to top, hsla(228, 14.29%, 6.86%, 0) 0%, hsla(228, 14.29%, 6.86%, 0.013) 4.8%,
+    hsla(228, 14.29%, 6.86%, 0.049) 9.8%, hsla(228, 14.29%, 6.86%, 0.104) 14.8%, hsla(228, 14.29%, 6.86%, 0.175) 20%,
+    hsla(228, 14.29%, 6.86%, 0.259) 25.5%, hsla(228, 14.29%, 6.86%, 0.352) 31.2%, hsla(228, 14.29%, 6.86%, 0.45) 37.1%,
+    hsla(228, 14.29%, 6.86%, 0.55) 43.4%, hsla(228, 14.29%, 6.86%, 0.648) 50.1%, hsla(228, 14.29%, 6.86%, 0.741) 57.2%,
+    hsla(228, 14.29%, 6.86%, 0.825) 64.7%, hsla(228, 14.29%, 6.86%, 0.896) 72.7%, hsla(228, 14.29%, 6.86%, 0.951) 81.2%,
+    hsla(228, 14.29%, 6.86%, 0.987) 90.3%, hsl(228, 14.29%, 6.86%) 100% ); }
+
+#wave { position: fixed; top:0px; left:0px; margin-top: 50vh; text-align: center; width: 100%; height: 100px; margin-left: auto; margin-right: auto; z-index:999; }
+#wave > .dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 3px; background: var(--fgcolor); animation: wave 1s ease-in-out infinite;}
+@keyframes wave { from, 20%, 53%, 80%, to { animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); transform: translate3d(0, 0, 0); } 40%, 43% { animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06); transform: translate3d(0, -30px, 0);} 70% { animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06); transform: translate3d(0, -15px, 0);} 90% { transform: translate3d(0, -4px, 0);}}
+h1, h2, h3, h4 { font-family: 'esmeralda', Fallback, sans-serif; } a { font-family:norms; } a { color:rgb(80,80,80); letter-spacing:0.12em; font-variation-settings: 'wght' 400; transition:color 0.5s; font-size:14px;text-decoration:none; cursor:pointer;} .anchor:hover { color:var(--hover);}
+p { font-family: 'norms', Fallback, sans-serif; font-variation-settings: 'wght' 400; }
+body { max-width:100%; margin:0; background:var(--bgcolor); } main {z-index:1; width:100%; will-change:transform; }
+img[data-srcset], [data-srcset] {opacity:0;} img, [srcset] {opacity:1; transition:opacity 1.25s, transform 1.5s cubic-bezier(0.16, 1, 0.3, 1);}
+#switcher {left:var(--paddings);}
+@media (hover: hover) and (pointer: fine)  { :root {--gradh:60vh; --imgh:110vh; --imgch:100vh; --mobilhide:visible; --mobilshow:hidden; --menuhide:flex;}}   
+@media (hover: none) and (pointer: coarse) { :root {--gradh:30vh; --imgh:50vh; --imgch:60vh; --mobilhide:hidden; --mobilshow:visible; --menuhide:flex;}} 
+@media (hover: none) and (pointer: coarse) and (orientation: portrait) { :root {--menuhide:none;}}
+@media screen and (max-width: 840px) { :root {--menuhide:none;} }
+    
+body::-webkit-scrollbar { width: 12px;} body, html { scrollbar-width:thin; scrollbar-color: var(--fg2) black;}
+body::-webkit-scrollbar-track { background: black;} body::-webkit-scrollbar-thumb { background-color: var(--fg2); border-radius: 10px; border: 4px solid black;}
+::-moz-selection {  color: var(--changing);  background: rgba(0,0,0,0); } ::selection { color: var(--changing); background: rgba(0,0,0,0); }
+h1 {font-size: 22px;} @media screen and (min-width: 320px) { h1 {font-size: calc(22px + 33 * ((100vw - 320px) / 680));}}
+@media screen and (min-width: 2000px) { h1 {font-size: 90px;}}    
+h2 {font-size: 20px;} @media screen and (min-width: 320px) { h2 {font-size: calc(20px + 20 * ((100vw - 320px) / 680));}}
+@media screen and (min-width: 2000px) { h2 {font-size: 70px;}} 
+h3 {font-size: 15px;} @media screen and (min-width: 320px) { h3 {font-size: calc(15px + 10 * ((100vw - 320px) / 680));}}
+@media screen and (min-width: 2000px) { h3 {font-size: 50px;}}
+h4 {font-size: 17px; line-height:160%;} @media screen and (min-width: 320px) { h4 {font-size: calc(17px + 8 * ((100vw - 320px) / 680));}}
+@media screen and (min-width: 2000px) { h4 {font-size: 30px;}}
+p {font-size: 15px; line-height:160%;} @media screen and (min-width: 320px) { p {font-size: calc(15px + 4 * ((100vw - 320px) / 680));}}
+@media screen and (min-width: 2000px) { p {font-size: 15px;}}
+.titlefade { opacity:0; transform:translateY(30px);}
+.anchor {  display:var(--menuhide); text-align:right; padding:0px calc(2vw + 2vh) 0px 0px; margin:0px; line-height:10px; font-size:12px; color:var(--fg2);}    
+.animate-me {opacity:0; will-change:opacity, transform;} .animate-me.fancy {opacity:1; transform:scale(1);}  .line {opacity:0; transform:scale(0.7, 1);}  
+.alt1 {transform:scale(0.9);} .alt2 {transform:translateY(30px);} .alt3 {transform:translateX(-40px);} .alt4 {transform:translateX(40px);}    
+.alt5 {transform:scale(0.95);} .alt6 {transform:translateY(10px);} .alt7 {transform:rotate(1deg);} .alt8 {transform:skewX(1deg);} .alt9 {transform:skewY(1deg);}
+.fade-in-vid {opacity:0; transform:translateY(20px); will-change:opacity, transform; }    
+    
+#v0-box { transition:all 0.3s; position:fixed; top:0px; display:flex;justify-content:center;align-items:center;width:100%;height:100%; overflow:hidden;}
+@media screen and (max-aspect-ratio: 1920/1080) { #v0 { height: 100%; } }
+@media screen and (min-aspect-ratio: 1920/1080) { #v0 { width: 100%; } }
+  
+.tab {margin:0px; color:#6d6d77; padding-right:50px; cursor:pointer; padding-bottom:var(--paddings); transition: all 0.5s;} .tab:hover {color:var(--fgcolor);} 
+h1>span {transition:all 0.5s;} h1>span:hover {color:hsl(210, 2.33%, 83.14%);}
+            .maps { margin:0px 0px var(--paddingxs) var(--paddings); width:450px; height:450px; max-width:calc(50vw - var(--paddingm) - var(--paddings)); max-height:calc(50vw - var(--paddingm) - var(--paddings)); box-sizing:border-box; background-repeat: no-repeat; background-size:contain;text-align:right; display:flex; flex-direction:column; justify-content:center;}
+        .maps > h1 { margin:0px; padding:0px; color:hsl(210, 2.33%, 83.14%); text-align:right; transition: all 1s ease; }
+        .maps > h4 { margin:0px; padding:0px; color:hsl(210, 2.33%, 83.14%); text-align:right; transition: all 1s ease; }  
+      
+      h1.maptext {font-size: 16px;} @media screen and (min-width: 320px) { h1.maptext {font-size: calc(16px + 40 * ((100vw - 320px) / 680));}}
+@media screen and (min-width: 2000px) { h1.maptext {font-size: 60px;}}  
+    
+    
+.path {
+  stroke-dasharray: 1100;
+  stroke-dashoffset: 1000;
+  animation: dash 7.5s cubic-bezier(0.37, 0, 0.63, 1) alternate infinite;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 822;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+</style>
+</head>
+<body style="height: 9907px;">
+
+    
+<div id="wave" style="transition: all 0.15s ease 0s; pointer-events: none; opacity: 0; transform: translateZ(42px);"> <span class="dot" style="opacity:0.5;"></span> </div>
+    
+<div id="v0-box" style="opacity:1;pointer-events:none;">       
+<video autoplay="" muted="" playsinline="" id="v0" class="fade-in-vid" preload="auto" style="-webkit-transform-style:preserve-3d; transform-style:preserve-3d; transition: all 1s ease-out; transform-origin:center bottom;">
+<source id="mp4video" type="video/mp4" style="outline:none;-webkit-transform-style: preserve-3d; transform-style:preserve-3d;" src="media/vid_bg.mp4"></video>
+</div> 
+    
+     
+<script> if ("ontouchstart" in document.documentElement && navigator.userAgent.indexOf("Chrome") !== -1) {
+document.getElementById("mp4video").setAttribute('src', "https://storage.googleapis.com/vidijok/vid_bg_m.mp4"); } else {
+document.getElementById("mp4video").setAttribute('src', "https://storage.googleapis.com/vidijok/vid_bg.mp4");}
+</script>
+   
+<div style="position:fixed;top:0px;display:flex;justify-content:space-between; width:100%;pointer-events:none;">
+    <div style="width:var(--paddings);height:100vh;background:var(--bgcolor);transform-origin: bottom left; transform:scaleX(var(--scales)); transition:background-color 0.65s, transform var(--timing) var(--easing); will-change:tranform;"></div>
+    
+    <div style="width:100%; height:7vh; transform:scaleY(var(--scales)); will-change:tranform;transform-origin: top center; visibility:var(--mobilshow);transition:background-color 0.65s, transform var(--timing) var(--easing); background:var(--bgcolor);"></div>
+    
+    <div style="width:var(--paddings);height:100vh;background:var(--bgcolor);transform-origin: bottom right; transform:scaleX(var(--scales)); transition:background-color 0.65s, transform var(--timing) var(--easing); will-change:tranform;"></div>
+    </div>
+
+    
+
+    
+    
+    
+    
+<main style="position: fixed; top: 0px; left: 0px; transform: translate3d(0px, 0px, 0.01px);">  
+  
+    
+    <div id="opener-div" style="background:var(--bgcolor); transition:background-color 0.65s; height:85vh; display:flex; align-items:flex-end;justify-content:flex-start; padding:0px var(--paddings) var(--paddings) var(--paddings); box-sizing:border-box;">
+<h1 id="opener" class="animate-me fancy" data-rate="-0.75" style="color: white; width: 100%; z-index: 10; margin: 0px; padding: 0px var(--paddings) calc(5vh) var(--paddings); transform: translateY(0px);">
+  <span class="title" style="color:var(--fgcolor);  
+                            transition:opacity 1s, color 0.65s, transform 1.5s cubic-bezier(0.16, 1, 0.3, 1);">The</span>
+    <span class="title" style="color:var(--fgcolor); 
+                            transition:opacity 1.5s 0.25s, color 0.65s, transform 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.25s;">marketing</span>
+    <span class="title" style=" color:var(--fgcolor); 
+                            transition:opacity 2s 0.5s, color 0.65s, transform 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.5s;">agency</span> <br>
+    <span class="title" style="color:var(--fgcolor); 
+                            transition:opacity 2.5s 0.75s, color 0.65s, transform 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.75s;">for</span>
+    <span class="title" style="color:var(--fgcolor); 
+                            transition:opacity 3s 1s, color 0.65s, transform 1.5s cubic-bezier(0.16, 1, 0.3, 1) 1s;">talents</span> 
+    <span class="title" style="color:var(--fgcolor);  
+                            transition:opacity 3s 1.25s, color 0.65s, transform 1.5s cubic-bezier(0.16, 1, 0.3, 1) 1.25s;">&amp;</span>�&nbsp;<span class="title" style="color:var(--fgcolor); 
+                            transition:opacity 3s 1.5s, color 0.65s, transform 1.5s cubic-bezier(0.16, 1, 0.3, 1) 1.25s;">brands.</span>  
+        </h1>
+</div>
+
+    <div style="height:50vh;"></div> 
+    <div style="background:var(--gradient); height:110vh;"> </div>
+    
+    <div id="about" style="background:var(--bgcolor);display:flex; flex-direction:column; justify-content:flex-start; align-items:flex-start;
+                padding:0px var(--paddingm); box-sizing:border-box;">
+    
+        <svg class="animate-me alt2" style="width:50vw; height:auto; transition: all 1.3s ease;" viewBox="0 0 717.5 194.4"> 
+      
+        <path class="path" vector-effect="non-scaling-stroke" stroke="none" d="M18.4,119.3c9.6-6.8,22.4-10.6,38.3-11.7c5.4-0.3,9.2-0.5,11.4-0.5c10.8-0.5,18.4-1.4,22.8-2.5
+	c4.4-1.2,6.5-4,6.3-8.4c-0.2-4.7-1.9-8.8-5.3-12.2c-3.4-3.4-9.2-5.1-17.5-5.1c-8.4,0-14.7,1.6-18.6,4.8c-4,3.2-6.5,7.7-7.7,13.4h-40
+	c2.2-16.6,9.8-28.8,22.7-36.7c12.9-7.9,27.8-11.9,44.7-11.9c18.8,0,33.8,4.5,45.2,13.6c11.4,9,17.1,25.8,17.1,50.3v74H97.2v-6.8
+	c0-3.7,0.9-7.4,2.8-11.1c0.2-0.5,0.7-1.6,1.5-3.3c0.8-1.7,1.3-3.1,1.3-4.3c0-1-0.4-1.7-1.3-2l-1.5-0.5c-1.4,0-2.3,0.6-2.8,1.8
+	c-0.5,1.2-0.8,1.9-1,2c-4.4,8.8-10.4,15.7-18.1,20.8c-7.7,5.1-16.8,7.6-27.5,7.6c-8.8,0-16.8-1.8-23.9-5.3
+	c-7.2-3.5-12.8-8.3-16.7-14.3c-4-6-6-12.7-6-20.1C4,136.5,8.8,126,18.4,119.3z M86.5,127.5c-4.1,0.9-12.2,2.2-24.2,3.7
+	c-5.2,0.5-9.5,2.1-12.8,4.8c-3.3,2.7-4.9,6.7-4.9,11.9c0,4.6,1.6,8.1,4.9,10.6c3.3,2.5,7.4,3.8,12.3,3.8c4.4,0,9.3-1.3,14.8-4.1
+	c5.5-2.7,10.3-7.1,14.4-13.2c4.1-6.1,6.2-13.9,6.2-23.6C94.2,124.6,90.6,126.6,86.5,127.5z M197.8,67.9c-0.3,0.7-1,1.9-2,3.8
+	c-1,1.9-1.5,3.4-1.5,4.6c0,0.8,0.5,1.5,1.5,2c0.3,0.2,0.8,0.3,1.5,0.3c1.5,0,3-1.4,4.3-4.1c9.3-17.2,23.3-25.8,42.1-25.8
+	c12,0,22.4,3.1,31.2,9.4c8.8,6.3,15.5,14.7,20.1,25.5c4.6,10.7,7,22.8,7,36.1c0,13.3-2.3,25.4-7,36.1c-4.6,10.7-11.4,19.2-20.1,25.5
+	c-8.8,6.2-19.2,9.4-31.2,9.4c-18.9,0-32.9-8.7-42.1-26.1c-0.7-1.3-1.4-2.4-2-3c-0.7-0.7-1.5-0.8-2.5-0.5c-1.4,0.5-2,1.4-2,2.8
+	c0,1.4,0.8,3.7,2.5,7.1c2,3.5,3,7.2,3,10.9v4.8h-40.5V4h40.5v52.7C200.6,60.4,199.7,64.1,197.8,67.9z M254,145.6
+	c5-6.9,7.5-15.6,7.5-26.1c0-10.5-2.5-19.2-7.5-26.1c-5-6.9-12.3-10.4-21.9-10.4c-9.3,0-16.8,3.5-22.7,10.6s-8.7,15.7-8.7,25.8
+	c0,10.1,2.9,18.8,8.7,25.8S222.7,156,232,156C241.7,156,249,152.6,254,145.6z M420.7,58.1c10.7,6.3,19,14.9,24.7,25.7
+	c5.7,10.8,8.6,22.7,8.6,35.7c0,13-2.9,24.9-8.6,35.7c-5.7,10.8-14,19.4-24.7,25.7c-10.7,6.3-23.3,9.5-37.6,9.5
+	c-14.4,0-26.9-3.2-37.6-9.5c-10.7-6.3-19-14.9-24.7-25.7c-5.7-10.8-8.6-22.7-8.6-35.7c0-13,2.9-24.9,8.6-35.7
+	c5.7-10.8,14-19.4,24.7-25.7c10.7-6.3,23.3-9.5,37.6-9.5C397.4,48.6,409.9,51.8,420.7,58.1z M405.5,145.6c5.3-6.9,8-15.6,8-26.1
+	c0-10.5-2.7-19.2-8-26.1c-5.3-6.9-12.8-10.4-22.4-10.4c-9.6,0-17.1,3.5-22.4,10.4c-5.3,6.9-8,15.6-8,26.1c0,10.5,2.7,19.2,8,26.1
+	c5.3,6.9,12.8,10.4,22.4,10.4C392.7,156,400.2,152.6,405.5,145.6z M479.1,176c-8.6-9.6-12.9-23.7-12.9-42.3V52.6h40.5v64.9
+	c0,14.5,1.6,24.6,4.9,30.2c3.3,5.6,8.7,8.4,16.3,8.4c5.6,0,10.8-2.2,15.6-6.6c4.8-4.4,8.7-10.6,11.5-18.5c2.9-7.9,4.3-16.9,4.3-26.9
+	V52.6h40.5v133.8h-40.5v-6.3c0-5.2,1.1-10,3.3-14.4c1.9-3.7,2.8-6.3,2.8-7.9c0-1.3-0.5-2.2-1.5-2.5c-0.3-0.2-0.8-0.3-1.3-0.3
+	c-1.5,0-2.9,1.4-4.1,4.1c-4.2,8.3-10.1,15.6-17.6,21.9c-7.5,6.3-16.4,9.5-26.7,9.5C499.4,190.5,487.7,185.7,479.1,176z M674.9,85.1
+	v55.7c0,4.6,0.2,7.7,0.6,9.4c0.4,1.7,1.4,2.7,2.9,3.2c1.5,0.4,4.4,0.6,8.6,0.6h24.3v32.4h-37.5c-9.3,0-16.8-1.2-22.6-3.7
+	c-5.7-2.4-10-6.6-12.8-12.5c-2.8-5.9-4.2-14.2-4.2-24.8V85.1h-24.3V52.6h24.3V16.2h40.5v36.5h36.5v32.4H674.9z" style="fill:rgba(0,0,0,0); stroke:var(--fgcolor); stroke-opacity:var(--stroke-opacity); stroke-width:1; transition: all 0.65s ease; -webkit-transition: all 0.65s ease;"></path> </svg> 
+        
+    <p class="animate-me alt2" style="transition:all 1s ease 0.5s; align-self:flex-end; color:var(--fgcolor); padding-top:10vh; width:670px; max-width:calc(100vw - var(--paddingm) - var(--paddingm) );">Our mission is to connect companies of all types and sizes with influencers and content creators around the world. We offer an all-round management for influencers and support companies in developing efficient and sustainable marketing strategies.</p>
+        
+    </div>  
+
+    
+    <div id="ide3" style="width:100%; height:var(--imgch); padding:var(--paddings); box-sizing:border-box; background:var(--bgcolor);">
+    
+        <div style="overflow:hidden; height:calc(100vh - var(--paddings) - var(--paddings)); display:flex; justify-content:center;">
+  <img class="move bg-changer" alt="" data-rate="0.35" data-srcset="img/gamer.jpeg" style="height:var(--imgh);" srcset="images/gamer.jpeg">
+</div> 
+        	
+    
+    </div>
+    <div style="background:var(--bgcolor);padding:0px var(--paddingm);box-sizing:border-box;display:flex; flex-direction:column; align-items:flex-start;">
+        
+        
+        <div class="animate-me alt2" style="transition:all 1s; width:100%;">
+            
+        
+        
+        <div style="display:flex;flex-wrap:wrap;">
+            
+            <h3 class="tab" onmouseover="changeText('Allies for brands'); 
+                                         changeText2('If you want to talk to your target, esports and gaming are key. The gaming audience does not watch TV, is always connected and wants to participate and share what they consume.<br><br>These digital natives are used to play and watch videogames live on twitch and youtube and do not like traditional ads.')">for brands</h3>
+            
+            <h3 class="tab" onmouseover="changeText('Allies for streamers'); 
+                                         changeText2('When it comes to live-streaming, especially that of video games, Twitch is the leading social platform.<br> Due to its’ origins, Twitch’s primary audience is the gaming community; however, non-gaming brands have begun to discover the opportunities available to them via the platform and Twitch influencers.')">for streamers</h3>
+            
+            <h3 class="tab" onmouseover="changeText('Allies for clubs'); 
+                                         changeText2('If you want to talk to your target, esports and gaming are key. The gaming audience does not watch TV, is always connected and wants to participate and share what they consume.<br><br>These digital natives are used to play and watch videogames live on twitch and youtube and do not like traditional ads.')">for clubs</h3>
+            
+            <h3 class="tab" onmouseover="changeText('Allies for gamers'); 
+                                         changeText2('We make influencers a part of your event presence. We can help you, whether you’re organizing your own event or plan a booth at a show like E3, China Joy or Gamescom.<br><br>Our goal is to create great experiences for your customers, the influencers and their fans.')">for gamers</h3>
+        </div>
+    
+        <div class="animate-me line" style="transition: all 1.5s cubic-bezier(0.16, 1, 0.3, 1); width:100%; height:3px;">
+<div style="width:100%; background:var(--fgcolor); opacity:var(--stroke-opacity); height:1px;"></div> </div>
+        
+        
+        <div class="animate-me alt2" style="width:100%; box-sizing:border-box; padding-top:var(--paddings); padding-bottom:var(--paddingm); display:flex; flex-direction:column; justify-content:flex-start; transition: all 1s ease 0.5s;">
+            
+             <h2 id="changethis" style="transition:all 0.4s; color:var(--fgcolor); margin:0px; width:670px; max-width:calc(100vw - var(--paddingm) - var(--paddingm) );align-self:flex-end;">Allies for brands</h2> 
+             <p id="changethis2" style="margin:0px; transition:all 0.4s ease; align-self:flex-end; color:var(--fg2); padding-top:var(--paddingxs); width:670px; max-width:calc(100vw - var(--paddingm) - var(--paddingm) );">If you want to talk to your target, esports and gaming are key. The gaming audience does not watch TV, is always connected and wants to participate and share what they consume.<br><br>These digital natives are used to play and watch videogames live on twitch and youtube and do not like traditional ads.
+</p>
+            
+      </div>   
+</div>
+        
+    
+    </div> 
+    
+    <div style="background:var(--gradient2); height:var(--gradh); "></div>
+    
+    <div id="services" style="padding:0px var(--paddingm); box-sizing:border-box;display:flex; flex-direction:column; align-items:flex-start; justify-content:flex-start;">
+    
+    <p class="animate-me alt4" style="color:hsl(210, 2.33%, 83.14%);transition:all 0.7s ease;">What we do</p>
+        
+    <h1 class="animate-me alt2" style="color:rgba(0,0,0,0);-webkit-text-stroke: 0.5px hsl(210, 2.33%, 83.14%); text-stroke: 0.5px hsl(210, 2.33%, 83.14%); transition: all 0.7s ease 0.25s;">
+        
+        <span class="custom" onmouseover="changeText3('You are an influencer and in need of support? Then we need to talk. Our management team will give you the support you need. We will provide our help in channel management, connect you with top brands and expand your community.')">Influencer Marketing,</span>
+        <span class="custom" onmouseover="changeText3('There are many social platforms where brands and influencers can work together. In fact, to have the greatest amount of impact, the best influencers often manage multiple social media channels through which they connect with their audience.')">Social Media Marketing,</span>
+        <span class="custom" onmouseover="changeText3('Are you interested in learning more about the opportunities with making influencers part of your next event? From strategizing, to event execution and beyond, we have the expertise to assist with your next event influencer activation!')">Paid Media,</span>
+        <span class="custom" onmouseover="changeText3('The world of gaming is massive, and with numerous gaming-related content available on the internet, it is a highly competitive world that would see you struggle without proper preparation. We help you create the best content for you.')">Content Optimiziation,</span>
+        <span class="custom" onmouseover="changeText3('You are an influencer and in need of support? Then we need to talk. Our management team will give you the support you need. We will provide our help in channel management, connect you with top brands and expand your community.')">Relations,</span>
+        <span class="custom" onmouseover="changeText3('Digital PR is an online marketing strategy used by businesses to increase their online presence. We network with journalists, bloggers and influencers and send online press releases to gain high-quality backlinks and improve SEO.')">Digital PR</span>
+             
+        
+    </h1>
+        <div class="animate-me alt2" style="transition:all 1s ease 0.25s;">
+            
+        
+    <p id="changethis3" style="margin:0px; transition:all 0.4s ease; color:hsl(210, 2.33%, 83.14%); padding:var(--paddingxs) 0px var(--paddingm) 0px; width:670px; max-width:calc(100vw - var(--paddingm) - var(--paddingm) );">You are an influencer and in need of support? Then we need to talk. Our management team will give you the support you need. We will provide our help in channel management, connect you with top brands and expand your community.
+</p>
+    </div>
+    
+    </div>  
+    
+    
+    <div style="background:var(--gradient); height:var(--gradh);"> </div>
+    <div id="clients" style="background:var(--bgcolor);">
+        
+        
+    <div style="display:flex; width:100%; flex-direction:column; align-items:flex-end; padding:0px var(--paddingm); box-sizing:border-box;">
+        
+        
+          <svg class="animate-me alt2" style="width:50vw; height:auto; transition: all 1.3s ease;padding:var(--paddingm) 0px var(--paddings) 0px;" viewBox="0 0 810.7 194.4"> 
+      
+        <path class="path" vector-effect="non-scaling-stroke" stroke="none" d="M12.7,83.9c5.8-10.8,14.1-19.3,24.9-25.7c10.9-6.4,23.7-9.5,38.7-9.5c13.1,0,24.5,2.7,34.2,8
+	c9.8,5.3,17.3,12.4,22.8,21.1c5.4,8.7,8.5,18.1,9.2,28.1l-40.2,0.3c-1.2-6.6-4-12.1-8.5-16.4c-4.5-4.3-10.2-6.5-17.2-6.5
+	c-9.5,0-17.2,3.6-23,10.7c-5.9,7.1-8.8,15.8-8.8,25.9s2.9,18.8,8.8,25.9c5.9,7.1,13.5,10.7,23,10.7c7,0,12.7-2.2,17.2-6.6
+	c4.5-4.4,7.3-9.9,8.5-16.5l40.2,0.3c-0.7,10-3.7,19.4-9.2,28.2c-5.4,8.8-13,15.9-22.8,21.2c-9.8,5.3-21.2,8-34.2,8
+	c-14.6,0-27.3-3.2-38.3-9.5c-10.9-6.4-19.3-14.9-25.2-25.7c-5.9-10.8-8.8-22.8-8.8-36S7,94.7,12.7,83.9z M195.4,3.9v183.2h-40.7V3.9
+	H195.4z M217.8,3.9h40.7v32.6h-40.7V3.9z M217.8,52.7h40.7v134.3h-40.7V52.7z M408.3,130.1h-97.4c1.4,8.6,4.8,15.6,10.4,20.7
+	c5.6,5.2,12.5,7.8,20.9,7.8c6.1,0,11.2-1.4,15.3-4.3c4.1-2.9,7-6.9,8.6-12h40.4c-2.9,13.9-9.8,25.5-20.9,34.9
+	c-11,9.3-25.4,14-43.2,14c-15.1,0-28.1-3.1-38.9-9.4c-10.9-6.3-19-14.8-24.5-25.6c-5.5-10.8-8.3-22.9-8.3-36.2
+	c0-13.9,2.8-26.2,8.4-37c5.6-10.8,13.7-19.2,24.4-25.2c10.7-6,23.4-9,38.2-9c11.9,0,22.9,2.5,33.2,7.4c10.3,4.9,18.5,12.4,24.8,22.5
+	c6.3,10.1,9.4,22.5,9.4,37.3C409.1,121.4,408.8,126.2,408.3,130.1z M311.9,105.6h57.2c-0.7-8.1-3.4-14.4-8.1-18.8
+	c-4.7-4.4-10.9-6.6-18.6-6.6C325.6,80.2,315.4,88.7,311.9,105.6z M542.6,63.2c8.6,9.7,13,23.8,13,42.5v81.4h-40.7v-65.1
+	c0-14.6-1.7-24.7-5-30.3c-3.3-5.6-8.8-8.4-16.4-8.4c-5.6,0-10.8,2.2-15.6,6.6c-4.8,4.4-8.7,10.6-11.6,18.6c-2.9,8-4.3,17-4.3,27
+	v51.6h-40.7V52.7H462v6.4c0,5.3-1.1,10.1-3.3,14.5c-1.9,3.7-2.8,6.4-2.8,7.9c0,1.4,0.5,2.2,1.5,2.5c0.3,0.2,0.8,0.3,1.3,0.3
+	c1.5,0,2.9-1.4,4.1-4.1c3.9-8.3,9.7-15.6,17.3-22c7.6-6.4,16.7-9.5,27.2-9.5C522.2,48.7,534,53.5,542.6,63.2z M626.8,85.3v56
+	c0,4.6,0.2,7.7,0.6,9.4c0.4,1.7,1.4,2.8,2.9,3.2c1.5,0.4,4.4,0.6,8.6,0.6h24.4v32.6h-37.6c-9.3,0-16.9-1.2-22.6-3.7
+	c-5.8-2.5-10-6.7-12.8-12.6c-2.8-5.9-4.2-14.2-4.2-24.9V85.3h-24.4V52.7h24.4V16.1h40.7v36.6h36.6v32.6H626.8z M722.1,154.9
+	c4,3.8,10.5,5.7,19.5,5.7c8.3,0,14.3-1.1,18.1-3.3c3.7-2.2,5.6-5.2,5.6-8.9c0-3.7-2.7-6.5-8-8.3c-5.3-1.8-14.3-3.3-26.8-4.7
+	c-20.5-2.4-34.1-7.6-40.7-15.6c-6.6-8.1-9.9-17.2-9.9-27.3c0-7.8,2.4-15,7.1-21.6c4.7-6.6,11.8-12,21.1-16
+	c9.3-4.1,20.4-6.1,33.3-6.1c17.1,0,31.2,3.9,42.4,11.8c11.1,7.9,17.2,19.5,18.2,35h-40.2c-0.5-10.9-7.5-16.3-21.1-16.3
+	c-7,0-12,1-15.3,3.1c-3.2,2-4.8,4.8-4.8,8.4c0,2.7,1.7,5,5,6.9c3.3,1.9,10,3.2,20,4.1c19.7,1.9,34.7,6.2,45,13.1
+	c10.3,6.9,15.5,17.3,15.5,31.2c0,8.6-2.6,16.4-7.9,23.3c-5.3,6.9-12.8,12.3-22.6,16.2c-9.8,3.9-21.5,5.9-34.9,5.9
+	c-20.4,0-36-4.5-47.1-13.4c-11-8.9-17-21.4-17.8-37.5h40.2C716,146.2,718.1,151.1,722.1,154.9z" style="fill:rgba(0,0,0,0); stroke:var(--fgcolor); stroke-opacity:var(--stroke-opacity); stroke-width:1; transition: all 0.65s ease; -webkit-transition: all 0.65s ease;"></path> </svg> 
+    </div>
+    
+    <style>
+        .clients { width:calc(4vh + 7vw + 20px); margin:5vw 4vw;}
+
+        </style>
+        
+    <div class="section bgfade" style="display:flex; flex-wrap:wrap; justify-content: center; align-items: center; align-content: center; box-sizing:border-box; width:100%; padding: 0px var(--paddings) var(--paddings) var(--paddings);">
+      
+    <img class="svg clients animate-me alt4" alt="" data-srcset="img/raidshadowlegends.svg" srcset="images/raidshadowlegends.svg">
+    <img class="svg clients animate-me alt4" alt="" data-srcset="img/razer.svg" srcset="images/razer.svg">    
+    <img class="svg clients animate-me alt4" alt="" data-srcset="img/riotgames.svg" srcset="images/riotgames.svg">
+    <img class="svg clients animate-me alt4" alt="" data-srcset="img/twitch.svg" srcset="images/twitch.svg">           
+    <img class="svg clients animate-me alt4" alt="" data-srcset="img/nordvpn.svg" srcset="images/nordvpn.svg">
+    <img class="svg clients animate-me alt4" alt="" data-srcset="img/corsair.svg" srcset="images/corsair.svg">    
+    <img class="svg clients animate-me alt4" alt="" data-srcset="img/jetx.svg" srcset="images/jetx.svg">   
+    <img class="svg clients animate-me alt4" alt="" data-srcset="img/discord.svg" srcset="images/discord.svg">
+    <img class="svg clients animate-me alt4" alt="" data-srcset="img/igvault.svg" srcset="images/igvault.svg">
+    <img class="svg clients animate-me alt4" alt="" data-srcset="img/onefootball.svg" srcset="images/onefootball.svg">           
+    <img class="svg clients animate-me alt4" alt="" data-srcset="img/genshinimpact.svg" srcset="images/genshinimpact.svg">
+    <img class="svg clients animate-me alt4" alt="" data-srcset="img/activision.svg" srcset="images/activision.svg">   
+</div> 
+        
+</div>
+    <div style="background:var(--gradient2); height:60vh; "></div>
+    
+    <div id="offices">
+     <svg class="animate-me alt2" style="width:50vw; height:auto; transition: all 1.3s ease; padding-left:var(--paddingm); padding-bottom:var(--paddings);" viewBox="0 0 810.7 194.4"> 
+      
+        <path class="path" vector-effect="non-scaling-stroke" stroke="none" d="M109.8,60.7c-10.5-6.2-22.7-9.3-36.7-9.3c-14,0-26.2,3.1-36.7,9.3c-10.5,6.2-18.5,14.5-24.1,25.1
+	C6.6,96.4,3.8,108,3.8,120.7c0,12.7,2.8,24.3,8.4,34.8c5.6,10.5,13.6,18.9,24.1,25.1c10.5,6.2,22.7,9.3,36.7,9.3
+	c14,0,26.2-3.1,36.7-9.3c10.5-6.2,18.5-14.5,24.1-25.1c5.6-10.5,8.4-22.2,8.4-34.8c0-12.7-2.8-24.3-8.4-34.8
+	C128.2,75.3,120.2,66.9,109.8,60.7z M94.9,146.1c-5.2,6.8-12.5,10.1-21.9,10.1c-9.4,0-16.7-3.4-21.9-10.1
+	c-5.2-6.8-7.8-15.2-7.8-25.5c0-10.2,2.6-18.7,7.8-25.5c5.2-6.8,12.5-10.1,21.9-10.1c9.4,0,16.7,3.4,21.9,10.1
+	c5.2,6.8,7.8,15.2,7.8,25.5C102.7,130.9,100.1,139.4,94.9,146.1z M292.5,4h36.6v31.6h-23.7c-4.1,0-6.9,0.2-8.4,0.6
+	c-1.5,0.4-2.4,1.4-2.8,3.1c-0.4,1.6-0.6,4.7-0.6,9.1v6.9h35.6v31.6h-35.6v98.9H254V87.1h-16.8h-3h-32.6v98.9H162V87.1h-19.8V55.4
+	H162V44.1c0-10.4,1.4-18.5,4.1-24.2c2.7-5.8,6.9-9.8,12.5-12.2c5.6-2.4,12.9-3.6,22-3.6h36.6v31.6h-23.7c-4.1,0-6.9,0.2-8.4,0.6
+	c-1.5,0.4-2.4,1.4-2.8,3.1c-0.4,1.6-0.6,4.7-0.6,9.1v6.9h32.6h3H254V44.1c0-10.4,1.4-18.5,4.1-24.2c2.7-5.8,6.9-9.8,12.5-12.2
+	C276.1,5.2,283.5,4,292.5,4z M342.9,8h39.5v31.6h-39.5V8z M342.9,55.4h39.5v130.5h-39.5V55.4z M442.4,95.5
+	c-5.7,6.9-8.5,15.3-8.5,25.2s2.8,18.3,8.5,25.2c5.7,6.9,13.1,10.4,22.4,10.4c6.8,0,12.3-2.1,16.7-6.4c4.4-4.3,7.1-9.6,8.3-16.1
+	l39.1,0.2c-0.7,9.7-3.6,18.9-8.9,27.4c-5.3,8.6-12.6,15.4-22.1,20.6c-9.5,5.2-20.6,7.8-33.2,7.8c-14.2,0-26.6-3.1-37.2-9.3
+	s-18.8-14.5-24.5-25c-5.7-10.5-8.5-22.1-8.5-35s2.8-24.5,8.4-35c5.6-10.5,13.7-18.8,24.2-25c10.5-6.2,23.1-9.3,37.6-9.3
+	c12.7,0,23.8,2.6,33.2,7.8c9.5,5.2,16.8,12,22.1,20.5c5.3,8.5,8.2,17.6,8.9,27.3l-39.1,0.2c-1.2-6.4-3.9-11.7-8.3-15.9
+	c-4.4-4.2-9.9-6.3-16.7-6.3C455.6,85.1,448.1,88.5,442.4,95.5z M638.9,58.6c-10-4.8-20.7-7.2-32.3-7.2c-14.3,0-26.7,2.9-37.1,8.8
+	c-10.4,5.9-18.3,14-23.7,24.5c-5.4,10.5-8.2,22.5-8.2,36c0,13,2.7,24.8,8,35.2c5.4,10.5,13.3,18.7,23.9,24.8
+	c10.5,6.1,23.1,9.1,37.8,9.1c17.3,0,31.3-4.5,42-13.6c10.7-9.1,17.5-20.3,20.3-33.9h-39.3c-1.6,4.9-4.4,8.8-8.4,11.6
+	c-4,2.8-8.9,4.2-14.8,4.2c-8.1,0-14.8-2.5-20.3-7.5c-5.4-5-8.8-11.7-10.1-20.1h94.7c0.5-3.8,0.7-8.4,0.7-13.8
+	c0-14.3-3-26.4-9.1-36.2C656.9,70.7,648.9,63.4,638.9,58.6z M577.7,106.8c3.5-16.5,13.3-24.7,29.7-24.7c7.4,0,13.4,2.1,18,6.4
+	c4.6,4.3,7.2,10.4,7.9,18.3H577.7z M806.6,145.9c0,8.4-2.6,15.9-7.7,22.6c-5.1,6.7-12.4,11.9-22,15.7c-9.6,3.8-20.8,5.7-33.9,5.7
+	c-19.8,0-35-4.3-45.7-13c-10.7-8.7-16.5-20.8-17.3-36.5h39.1c0.2,5.8,2.2,10.5,6.1,14.2c3.9,3.7,10.2,5.6,18.9,5.6
+	c8.1,0,13.9-1.1,17.5-3.2c3.6-2.1,5.4-5,5.4-8.7c0-3.6-2.6-6.3-7.8-8c-5.2-1.7-13.9-3.3-26.1-4.6c-19.9-2.3-33.1-7.4-39.5-15.2
+	c-6.4-7.8-9.6-16.7-9.6-26.6c0-7.6,2.3-14.6,6.9-21c4.6-6.4,11.5-11.6,20.5-15.6c9.1-4,19.9-5.9,32.4-5.9c16.6,0,30.4,3.8,41.2,11.5
+	c10.8,7.7,16.7,19,17.7,34h-39.1c-0.5-10.5-7.3-15.8-20.5-15.8c-6.8,0-11.7,1-14.8,3c-3.1,2-4.7,4.7-4.7,8.2c0,2.6,1.6,4.9,4.8,6.7
+	c3.2,1.8,9.7,3.1,19.4,4c19.1,1.8,33.7,6.1,43.7,12.7C801.6,122.3,806.6,132.4,806.6,145.9z" style="fill:rgba(0,0,0,0); stroke:hsl(210, 2.33%, 83.14%); stroke-width:1; transition: all 0.65s ease; -webkit-transition: all 0.65s ease;"></path> </svg> 
+    
+    
+    <div style="width:100%;">
+        
+ 
+        
+        
+      <div style="width:100%; box-sizing:border-box; padding-right:var(--paddingm); display:flex; flex-wrap:wrap; justify-content:flex-end; align-items:flex-start;">
+       <div style="width:100%; max-width:1500px;display:flex; flex-wrap:wrap; justify-content:flex-end; align-items:flex-start;">
+       
+        <div class="maps" style="background:url(images/gibraltar.svg);">
+            <h1 class="maptext animate-me alt4">Gibraltar</h1><h4 class="animate-me alt4">Gibraltar</h4></div>  
+           
+       </div>
+     </div>
+        
+        
+        </div>    
+        
+        
+    
+    </div>  
+    
+    <div style="background:var(--gradient); height:60vh;"> </div>
+    <div id="contact" style="width:100%; background:var(--bgcolor);">
+    
+  <svg class="animate-me alt2" style="width:50vw; height:auto; transition: all 1.3s ease; padding-left:var(--paddingm); " viewBox="0 0 1571.7 297.8"> 
+      
+        <path class="path" vector-effect="non-scaling-stroke" stroke="none" d="M19.4,117.5C29,99.7,42.7,85.5,60.7,74.9c18-10.5,39.4-15.8,64.1-15.8c21.7,0,40.6,4.4,56.7,13.3
+	c16.2,8.9,28.8,20.5,37.8,35c9,14.5,14.1,30,15.2,46.6l-66.7,0.4c-2-11-6.7-20-14.1-27.2c-7.5-7.2-16.9-10.8-28.5-10.8
+	c-15.8,0-28.5,5.9-38.2,17.7s-14.6,26.2-14.6,43s4.9,31.2,14.6,43s22.4,17.7,38.2,17.7c11.5,0,21-3.7,28.5-11
+	c7.4-7.3,12.2-16.5,14.1-27.4l66.7,0.4c-1.1,16.6-6.2,32.2-15.2,46.8c-9,14.6-21.6,26.4-37.8,35.2c-16.2,8.9-35.1,13.3-56.7,13.3
+	c-24.2,0-45.4-5.3-63.5-15.8s-32.1-24.7-41.8-42.6c-9.7-17.9-14.6-37.8-14.6-59.7C5.1,155.3,9.8,135.4,19.4,117.5z M430.5,74.9
+	c17.9,10.5,31.6,24.8,41.1,42.8c9.6,18,14.3,37.8,14.3,59.5c0,21.7-4.8,41.5-14.3,59.5c-9.6,18-23.3,32.3-41.1,42.8
+	c-17.9,10.5-38.7,15.8-62.6,15.8c-23.9,0-44.8-5.3-62.6-15.8c-17.9-10.5-31.6-24.8-41.1-42.8c-9.6-18-14.3-37.8-14.3-59.5
+	c0-21.7,4.8-41.5,14.3-59.5c9.6-18,23.3-32.3,41.1-42.8c17.9-10.5,38.7-15.8,62.6-15.8C391.8,59.1,412.6,64.4,430.5,74.9z
+	 M405.2,220.7c8.9-11.5,13.3-26,13.3-43.5c0-17.4-4.4-31.9-13.3-43.5c-8.9-11.5-21.3-17.3-37.3-17.3c-16,0-28.5,5.8-37.3,17.3
+	c-8.9,11.5-13.3,26-13.3,43.5c0,17.4,4.4,31.9,13.3,43.5c8.9,11.5,21.3,17.3,37.3,17.3C383.9,238,396.3,232.2,405.2,220.7z
+	 M707.5,83.2c14.3,16,21.5,39.5,21.5,70.5v135h-67.5v-108c0-24.2-2.7-40.9-8.2-50.2c-5.5-9.3-14.6-13.9-27.2-13.9
+	c-9.3,0-17.9,3.7-25.9,11c-8,7.3-14.4,17.6-19.2,30.8c-4.8,13.2-7.2,28.1-7.2,44.7v85.6h-67.5V65.9h67.5v10.5c0,8.7-1.8,16.7-5.5,24
+	c-3.1,6.2-4.6,10.5-4.6,13.1c0,2.3,0.8,3.7,2.5,4.2c0.6,0.3,1.3,0.4,2.1,0.4c2.5,0,4.8-2.2,6.8-6.7c6.5-13.8,16-25.9,28.7-36.5
+	c12.7-10.5,27.7-15.8,45.1-15.8C673.6,59.1,693.1,67.1,707.5,83.2z M847.1,119.9v92.8c0,7.6,0.3,12.8,1.1,15.6
+	c0.7,2.8,2.3,4.6,4.9,5.3c2.5,0.7,7.3,1.1,14.3,1.1h40.5v54h-62.4c-15.5,0-28-2-37.5-6.1c-9.6-4.1-16.7-11-21.3-20.9
+	c-4.6-9.8-7-23.6-7-41.3V119.9h-40.5v-54h40.5V5.1h67.5v60.7h60.7v54H847.1z M952.1,176.8c16-11.2,37.3-17.7,63.7-19.4
+	c9-0.6,15.3-0.8,19-0.8c18-0.8,30.7-2.2,38-4.2c7.3-2,10.8-6.6,10.5-13.9c-0.3-7.9-3.2-14.6-8.9-20.2c-5.6-5.6-15.3-8.4-29.1-8.4
+	c-14.1,0-24.4,2.7-31,8c-6.6,5.3-10.9,12.8-12.9,22.4h-66.7c3.7-27.6,16.2-47.9,37.8-61.2c21.5-13.2,46.3-19.8,74.5-19.8
+	c31.2,0,56.3,7.5,75.3,22.6c19,15,28.5,43,28.5,83.7v123.2h-67.5v-11.4c0-6.2,1.5-12.4,4.6-18.6c0.3-0.8,1.1-2.7,2.5-5.5
+	c1.4-2.8,2.1-5.2,2.1-7.2c0-1.7-0.7-2.8-2.1-3.4l-2.5-0.8c-2.3,0-3.8,1-4.6,3c-0.8,2-1.4,3.1-1.7,3.4c-7.3,14.6-17.4,26.2-30.2,34.6
+	c-12.8,8.4-28.1,12.7-45.8,12.7c-14.6,0-27.9-3-39.9-8.9c-12-5.9-21.2-13.8-27.8-23.8c-6.6-10-9.9-21.2-9.9-33.5
+	C928.1,205.5,936.1,188.1,952.1,176.8z M1065.4,190.5c-6.9,1.5-20.3,3.6-40.3,6.1c-8.7,0.8-15.8,3.5-21.3,8
+	c-5.5,4.5-8.2,11.1-8.2,19.8c0,7.6,2.7,13.5,8.2,17.7s12.3,6.3,20.5,6.3c7.3,0,15.5-2.2,24.7-6.8c9.1-4.5,17.2-11.8,24-21.9
+	c6.9-10.1,10.3-23.2,10.3-39.2C1078.3,185.7,1072.3,189,1065.4,190.5z M1188.8,117.5c9.6-17.9,23.3-32.1,41.3-42.6
+	c18-10.5,39.4-15.8,64.1-15.8c21.7,0,40.6,4.4,56.7,13.3c16.2,8.9,28.8,20.5,37.8,35c9,14.5,14.1,30,15.2,46.6l-66.7,0.4
+	c-2-11-6.7-20-14.1-27.2c-7.5-7.2-16.9-10.8-28.5-10.8c-15.8,0-28.5,5.9-38.2,17.7c-9.7,11.8-14.6,26.2-14.6,43s4.9,31.2,14.6,43
+	c9.7,11.8,22.4,17.7,38.2,17.7c11.5,0,21-3.7,28.5-11c7.4-7.3,12.2-16.5,14.1-27.4l66.7,0.4c-1.1,16.6-6.2,32.2-15.2,46.8
+	c-9,14.6-21.6,26.4-37.8,35.2c-16.2,8.9-35.1,13.3-56.7,13.3c-24.2,0-45.4-5.3-63.5-15.8s-32.1-24.7-41.8-42.6
+	c-9.7-17.9-14.6-37.8-14.6-59.7C1174.5,155.3,1179.2,135.4,1188.8,117.5z M1508.6,119.9v92.8c0,7.6,0.3,12.8,1.1,15.6
+	c0.7,2.8,2.3,4.6,4.9,5.3c2.5,0.7,7.3,1.1,14.3,1.1h40.5v54h-62.4c-15.5,0-28-2-37.5-6.1c-9.6-4.1-16.7-11-21.3-20.9
+	c-4.6-9.8-7-23.6-7-41.3V119.9h-40.5v-54h40.5V5.1h67.5v60.7h60.7v54H1508.6z" style="fill:rgba(0,0,0,0); stroke:var(--fgcolor); stroke-opacity:var(--stroke-opacity); stroke-width:1; transition: all 0.65s ease; -webkit-transition: all 0.65s ease;"></path> </svg>    
+    
+    <div style="display:flex; flex-direction:column; padding:var(--paddings) var(--paddingm) var(--paddings) 0px; width:100%; box-sizing:border-box;">
+        
+       
+    <p class="animate-me alt2" style="margin:0px; transition:all 1s ease 0.25s; align-self:flex-end; color:var(--fg2); padding-top:var(--paddingxs); width:670px; max-width:calc(100vw - var(--paddingm) - var(--paddingm) );">We've always got an open ear for you. Whether you're looking for influencers for your next big advertising campaign or are an influencer yourself, you can send a message to the following addresses.
+<br><br>
+Become a client:<br>
+<span style="color:var(--fgcolor);font-variation-settings: 'wght' 500;">newbusiness@allies.marketing</span>
+<br><br>
+Everything else:<br>
+<span style="color:var(--fgcolor);font-variation-settings: 'wght' 500;">hello@allies.marketing</span>
+</p>
+    
+     </div>
+  </div>   
+    
+   
+    <div style="width:100%; background:var(--bgcolor);">
+        
+         
+     <div class="animate-me line" style="transition: all 1.5s cubic-bezier(0.16, 1, 0.3, 1); width:100%; height:3px; padding:0px var(--paddings); box-sizing:border-box;">
+<div style="width:100%; background:var(--fgcolor); opacity:var(--stroke-opacity); height:1px;"></div> </div>
+        
+        
+   <div style="width:100%; height:200px; box-sizing:border-box; padding:0px var(--paddingm);display:flex;justify-content:space-between; align-items:center;">
+    
+        <svg style="width:70px; transition: all 0.6s ease;" viewBox="0 0 765.1 251.7"> 
+      <path d="M153.2,229.8c-2.4-4.7-3.6-10.1-3.6-16.1v-77.8c0-20.8-6.2-36.9-18.7-48.3c-12.5-11.4-28.1-17.2-46.8-17.2
+	s-35.8,5.3-51.3,15.9c-15.6,10.6-25.2,25.2-29,43.9c16.6-13,35.8-19.5,57.8-19.5c10.1,0,18,2.3,23.7,6.9c5.7,4.6,8.6,10.9,8.6,18.9
+	v9.4h-2.3c-16.4,0-31,1.8-43.6,5.3c-12.7,3.5-23.2,9.7-31.6,18.6c-8.4,8.9-12.6,19.9-12.6,33c0,13.3,4.6,24.2,13.9,32.6
+	c9.2,8.4,20.1,12.6,32.5,12.6c14.1,0,25.1-4.9,32.9-14.7c7.8-9.8,12.9-22.5,15.1-38.2v50.1h68.7
+	C160.1,239.6,155.6,234.5,153.2,229.8z M93.8,186.5c0,7.8-1.8,14.1-5.4,18.7c-3.6,4.7-8.5,7-14.6,7c-5.2,0-9.2-1.9-12.2-5.6
+	c-3-3.7-4.4-8.2-4.4-13.6c0-9,3-16.4,9.2-22.2c6.1-5.8,15-8.7,26.6-8.7h0.9V186.5z M262.6,245.1h-90.1c6.5-5.5,11-10.7,13.4-15.4
+	c2.5-4.8,3.7-10.1,3.7-16V39.2l-17.2-20l72.9-10v204.5c0,6.1,1.2,11.5,3.7,16.1C251.6,234.5,256.1,239.6,262.6,245.1z M359.8,245.1
+	h-90.1c6.5-5.5,11-10.7,13.4-15.4c2.5-4.8,3.7-10.1,3.7-16V39.2l-17.2-20l72.9-10v204.5c0,6.1,1.2,11.5,3.7,16.1
+	C348.9,234.5,353.4,239.6,359.8,245.1z M392.6,52.2c-5.6-5.6-8.4-12.5-8.4-20.7c0-8.2,2.8-15.2,8.4-20.9S405.1,2,413.3,2
+	s15.2,2.9,20.9,8.6c5.7,5.7,8.6,12.7,8.6,20.9c0,8.2-2.8,15.1-8.6,20.7c-5.7,5.6-12.7,8.4-20.9,8.4S398.2,57.8,392.6,52.2z
+	 M460,245.1h-90.1c6.5-5.5,11-10.7,13.5-15.4s3.7-10.1,3.7-16v-113l-17.2-20l72.9-10v143c0,6.1,1.2,11.5,3.6,16.1
+	C448.8,234.5,453.3,239.6,460,245.1z M544.9,70.4c-21.9,0-40.9,8.2-56.8,24.6c-15.9,16.4-23.9,38.1-23.9,65.2
+	c0,27.7,8.1,49.5,24.3,65.5c16.2,16,36.5,24,60.9,24c16.2,0,31.1-5.3,44.6-15.9c13.5-10.6,20.3-24.5,20.3-41.6
+	c-4.4,5.5-10.7,10.1-18.9,13.9c-8.2,3.7-16.4,5.6-24.6,5.6c-13.5,0-25-4.3-34.3-13c-9.3-8.7-14.8-20.6-16.3-35.6h95.8
+	c0.7-5,1.1-10.5,1.1-16.6c0-22.1-6.9-40.3-20.7-54.6C582.7,77.5,565.5,70.4,544.9,70.4z M520,147c0.8-16.6,3.3-29.2,7.7-37.8
+	c4.4-8.6,9.9-12.9,16.6-12.9c12.4,0,19.1,15.7,20,47.2L520,147z M763.2,191.6c0,17.5-6.5,31.6-19.5,42.2
+	c-13,10.6-30.6,15.9-52.9,15.9c-9.3,0-19.4-1.2-30.3-3.7c-10.9-2.5-20-6.1-27.5-10.9v-57.8c7.8,14.7,17,26.1,27.6,34.2
+	c10.6,8.1,21.6,12.2,33,12.2c8,0,14.2-1.6,18.6-4.7c4.4-3.1,6.6-7,6.6-11.6c0-4-1.6-7.5-4.9-10.5c-3.3-3-7.4-5.4-12.4-7.4
+	c-5.1-2-10.7-4-16.9-6c-6.2-2-12.4-4.5-18.7-7.4c-6.3-2.9-12-6.4-17-10.3c-5-3.9-9.2-9.2-12.4-15.7c-3.2-6.6-4.9-14.2-4.9-22.7
+	c0-17.7,6.7-31.7,20.2-41.8c13.4-10.1,30.3-15.2,50.5-15.2c22.1,0,39.6,4.4,52.3,13.2v52.9c-6.7-12.6-15.1-22.4-25.2-29.5
+	c-10.1-7.1-20.1-10.6-30.1-10.6c-6.8,0-12.5,1.6-16.9,4.9c-4.4,3.2-6.6,7.3-6.6,12.3c0,4.4,3,8.2,9,11.4c6,3.2,13.3,6.3,21.7,9.1
+	c8.5,2.9,17,6.3,25.6,10.3c8.6,4,15.9,10,21.9,18C760.2,170.5,763.2,180.2,763.2,191.6z" style="fill:var(--fgcolor); transition: all 0.65s ease; -webkit-transition: all 0.65s ease;"></path>
+
+    </svg> 
+            
+           <p style="color:var(--fg2); font-size:13px; line-height:18px; margin:0px; text-align:right; max-width:calc(50vw - var(--paddings));"> Copyright�&nbsp;©�&nbsp;<!--?php echo date("Y"); ?--> Allies marketing agency. All rights reserved.</p> 
+            
+            
+   </div>
+        
+    </div>
+  
+         
+    
+        <div id="menu" style="margin-left: var(--paddingm); margin-top: calc(8vh + 3vw); position: absolute; top: 0px; left: 0px; align-items: center; justify-content: center; display: flex; opacity: 1; transition: all 0.3s ease 0s;">
+       
+            
+         <a class="anchor" href="#about" target="_self">ABOUT</a>                    
+         <a class="anchor" href="#services" target="_self">SERVICES</a>          
+         <a class="anchor" href="#clients" target="_self">CLIENTS</a>
+         <a class="anchor" href="#offices" target="_self">OFFICES</a>                    
+         <a class="anchor" href="#contact" target="_self">CONTACT</a> 
+    </div>
+    
+        <svg id="logo" style="position: absolute; top: calc(-6px + 8vh + 3vw); right: var(--paddingm); width: 65px; transition: all 0.6s ease 0s; opacity: 1;" viewBox="0 0 765.1 251.7"> 
+      
+        <path class="anm2" stroke="none" d="M153.2,229.8c-2.4-4.7-3.6-10.1-3.6-16.1v-77.8c0-20.8-6.2-36.9-18.7-48.3c-12.5-11.4-28.1-17.2-46.8-17.2
+	s-35.8,5.3-51.3,15.9c-15.6,10.6-25.2,25.2-29,43.9c16.6-13,35.8-19.5,57.8-19.5c10.1,0,18,2.3,23.7,6.9c5.7,4.6,8.6,10.9,8.6,18.9
+	v9.4h-2.3c-16.4,0-31,1.8-43.6,5.3c-12.7,3.5-23.2,9.7-31.6,18.6c-8.4,8.9-12.6,19.9-12.6,33c0,13.3,4.6,24.2,13.9,32.6
+	c9.2,8.4,20.1,12.6,32.5,12.6c14.1,0,25.1-4.9,32.9-14.7c7.8-9.8,12.9-22.5,15.1-38.2v50.1h68.7
+	C160.1,239.6,155.6,234.5,153.2,229.8z M93.8,186.5c0,7.8-1.8,14.1-5.4,18.7c-3.6,4.7-8.5,7-14.6,7c-5.2,0-9.2-1.9-12.2-5.6
+	c-3-3.7-4.4-8.2-4.4-13.6c0-9,3-16.4,9.2-22.2c6.1-5.8,15-8.7,26.6-8.7h0.9V186.5z M262.6,245.1h-90.1c6.5-5.5,11-10.7,13.4-15.4
+	c2.5-4.8,3.7-10.1,3.7-16V39.2l-17.2-20l72.9-10v204.5c0,6.1,1.2,11.5,3.7,16.1C251.6,234.5,256.1,239.6,262.6,245.1z M359.8,245.1
+	h-90.1c6.5-5.5,11-10.7,13.4-15.4c2.5-4.8,3.7-10.1,3.7-16V39.2l-17.2-20l72.9-10v204.5c0,6.1,1.2,11.5,3.7,16.1
+	C348.9,234.5,353.4,239.6,359.8,245.1z M392.6,52.2c-5.6-5.6-8.4-12.5-8.4-20.7c0-8.2,2.8-15.2,8.4-20.9S405.1,2,413.3,2
+	s15.2,2.9,20.9,8.6c5.7,5.7,8.6,12.7,8.6,20.9c0,8.2-2.8,15.1-8.6,20.7c-5.7,5.6-12.7,8.4-20.9,8.4S398.2,57.8,392.6,52.2z
+	 M460,245.1h-90.1c6.5-5.5,11-10.7,13.5-15.4s3.7-10.1,3.7-16v-113l-17.2-20l72.9-10v143c0,6.1,1.2,11.5,3.6,16.1
+	C448.8,234.5,453.3,239.6,460,245.1z M544.9,70.4c-21.9,0-40.9,8.2-56.8,24.6c-15.9,16.4-23.9,38.1-23.9,65.2
+	c0,27.7,8.1,49.5,24.3,65.5c16.2,16,36.5,24,60.9,24c16.2,0,31.1-5.3,44.6-15.9c13.5-10.6,20.3-24.5,20.3-41.6
+	c-4.4,5.5-10.7,10.1-18.9,13.9c-8.2,3.7-16.4,5.6-24.6,5.6c-13.5,0-25-4.3-34.3-13c-9.3-8.7-14.8-20.6-16.3-35.6h95.8
+	c0.7-5,1.1-10.5,1.1-16.6c0-22.1-6.9-40.3-20.7-54.6C582.7,77.5,565.5,70.4,544.9,70.4z M520,147c0.8-16.6,3.3-29.2,7.7-37.8
+	c4.4-8.6,9.9-12.9,16.6-12.9c12.4,0,19.1,15.7,20,47.2L520,147z M763.2,191.6c0,17.5-6.5,31.6-19.5,42.2
+	c-13,10.6-30.6,15.9-52.9,15.9c-9.3,0-19.4-1.2-30.3-3.7c-10.9-2.5-20-6.1-27.5-10.9v-57.8c7.8,14.7,17,26.1,27.6,34.2
+	c10.6,8.1,21.6,12.2,33,12.2c8,0,14.2-1.6,18.6-4.7c4.4-3.1,6.6-7,6.6-11.6c0-4-1.6-7.5-4.9-10.5c-3.3-3-7.4-5.4-12.4-7.4
+	c-5.1-2-10.7-4-16.9-6c-6.2-2-12.4-4.5-18.7-7.4c-6.3-2.9-12-6.4-17-10.3c-5-3.9-9.2-9.2-12.4-15.7c-3.2-6.6-4.9-14.2-4.9-22.7
+	c0-17.7,6.7-31.7,20.2-41.8c13.4-10.1,30.3-15.2,50.5-15.2c22.1,0,39.6,4.4,52.3,13.2v52.9c-6.7-12.6-15.1-22.4-25.2-29.5
+	c-10.1-7.1-20.1-10.6-30.1-10.6c-6.8,0-12.5,1.6-16.9,4.9c-4.4,3.2-6.6,7.3-6.6,12.3c0,4.4,3,8.2,9,11.4c6,3.2,13.3,6.3,21.7,9.1
+	c8.5,2.9,17,6.3,25.6,10.3c8.6,4,15.9,10,21.9,18C760.2,170.5,763.2,180.2,763.2,191.6z" style="fill:var(--fgcolor); transition: all 0.65s ease; -webkit-transition: all 0.65s ease;"></path>
+
+    </svg> 
+    
+    
+</main> 
+    
+
+   
+<img id="scrolltop" alt="" onclick="window.scrollTo(0,0);history.replaceState(null, null, ' ');" class="custom svg animate-me alt2 scrolltophide fancy" data-srcset="img/up_dark.svg" style="z-index: 2; cursor: pointer; transform: translateZ(42px); position: fixed; bottom: 8px; right: 8px; width: 26px; padding: 1.5vw; transition: all 0.5s ease 0s; opacity: 0; pointer-events: none;" srcset="images/up_dark.svg">
+
+    
+<script>
+    document.getElementById('wave').style.opacity = 1;
+    
+    setTimeout(function(){ 
+        document.getElementById('wave').style.opacity = 0;
+    document.getElementById('menu').style.opacity = 1; document.getElementById('logo').style.opacity = 1;
+    var darabok = document.getElementsByClassName("title"); 
+    for(var i=0; i< darabok.length; i++) { darabok[i].classList.remove('titlefade'); }
+  }, 500);
+</script>
+    
+<script>[].forEach.call(document.querySelectorAll('[data-srcset]'), function(pic) { pic.setAttribute('srcset', pic.getAttribute('data-srcset'));
+pic.onload = function() { pic.removeAttribute('data-srcset');}; });</script>  
+    
+<script> 
+    if ("ontouchstart" in document.documentElement && window.innerHeight > window.innerWidth) {
+        var opener = document.getElementById("opener-div");
+var heinz = window.innerHeight * 0.75; opener.style.maxHeight = heinz + "px";}
+    
+setTimeout(function(){ 
+    if(document.fonts.ready) {
+    document.getElementById("v0").classList.remove('fade-in-vid');   } 
+}, 3000); 
+       
+</script>
+    
+<script>
+var vid0 = document.getElementById('v0'); var scrollpos = 0; var targetscrollpos = 0; vid0.pause(); window.onscroll = function(){ var vrate = document.body.scrollHeight / (vid0.duration * 1.1); targetscrollpos = window.pageYOffset / vrate;}; setInterval(function(){ scrollpos += (targetscrollpos - scrollpos) * 0.25; vid0.currentTime = scrollpos; vid0.pause(); }, 40);
+</script>
+    
+<script>
+var elements = document.querySelectorAll('a.fade'), i; for(var i = 0, len = elements.length; i < len; i++) { elements[i].onclick = function () { return createTimedLink(this, myFunction, 300); } } function createTimedLink(element, callback, timeout){ var badi = document.body; badi.style.transition = "opacity 0.3s"; badi.style.opacity = 0;
+setTimeout( function(){callback(element);}, timeout); return false;} function myFunction(element) { window.location = element.href;} window.addEventListener( "pageshow", function ( event ) { var historyTraversal = event.persisted || ( typeof window.performance != "undefined" && window.performance.navigation.type === 2 ); if ( historyTraversal ) { window.location.reload(); } });
+</script> 
+    
+<script>
+const options = { root: null, rootMargin: '0px', threshold:0 }
+let callback = (entries) => { entries.forEach(entry => { if(entry.isIntersecting) { entry.target.classList.add('fancy'); } else { entry.target.classList.remove('fancy');} });} 
+let observer = new IntersectionObserver(callback, options); document.querySelectorAll('.animate-me').forEach(box => { observer.observe(box) });    
+</script> 
+
+<script>
+function parallax() {
+    var opener = document.getElementById("opener"); var rate2 = opener.getAttribute('data-rate');
+    let movez = document.querySelectorAll(".move"); 
+    var start2 = this.scrollY; var stop2 = this.scrollY - opener.offsetTop - opener.clientHeight;
+    if ( stop2 < 0 ) { opener.style.transform = "translateY(" + - start2 / 6 * rate2 + "px)";}
+ 
+    
+    for (let i = 0; i < movez.length; i++) { 
+    
+    var start = this.scrollY - movez[i].offsetTop + window.innerHeight; 
+    var stop = this.scrollY - movez[i].offsetTop - movez[i].clientHeight; 
+    var rate = movez[i].getAttribute('data-rate');  
+        
+    if ( start > 0 && stop < 0 ) { movez[i].style.transform = "translateY(" + - start / 6 * rate + "px)";} 
+    if ("ontouchstart" in document.documentElement) { movez[i].style.transition = opener.style.transition = "transform 0s linear";} } requestAnimationFrame(parallax); } requestAnimationFrame(parallax);
+</script>
+    
+<script>
+function smoothie() { const body = document.body, scrollWrap = document.querySelector('main'), height = scrollWrap.getBoundingClientRect().height - 1, speed = 0.1;
+var offset = 0; body.style.height = Math.floor(height) + "px"; scrollWrap.style.position = 'fixed'; scrollWrap.style.top = 0; scrollWrap.style.left = 0;    
+function smoothScroll() { offset += (window.pageYOffset - offset) * speed; var scroll = "translate3d(0px," + - offset + "px, 0.01px)"; scrollWrap.style.transform = scroll;
+requestAnimationFrame(smoothScroll); } requestAnimationFrame(smoothScroll); }     
+if ("ontouchstart" in document.documentElement) { } else { window.onload = setTimeout(smoothie, 10); window.onload = document.body.onresize = function() {smoothie(); };
+let ankorz = document.querySelectorAll(".anchor"); for (let i = 0; i < ankorz.length; i++) { ankorz[i].onclick = function() { window.scrollTo(0, document.querySelector(this.getAttribute('href')).offsetTop); } }
+}</script>
+    
+
+    
+<script>
+function gecoKa() {
+    var html = document.getElementsByTagName("html")[0];
+    var wchange = window.pageYOffset / 200;
+    if ("ontouchstart" in document.documentElement) {
+        html.style.setProperty("--timing", 0 + "s");
+        html.style.setProperty("--easing", "linear");
+        if (wchange < 1) {
+            html.style.setProperty("--scales", 1 - wchange);
+        } else {
+            html.style.setProperty("--scales", 0);
+        }
+    } else {
+        html.style.setProperty("--timing", 0.5 + "s");
+        html.style.setProperty("--easing", "ease");
+        if (wchange < 1) {
+            html.style.setProperty("--scales", 1 - wchange);
+        } else {
+            html.style.setProperty("--scales", 0);
+        }
+    }
+    window.requestAnimationFrame(gecoKa);
+}
+window.requestAnimationFrame(gecoKa);
+</script>
+    
+<script> if ("ontouchstart" in document.documentElement) {  if (window.DeviceOrientationEvent) {  window.addEventListener('orientationchange', function() { location.reload(); }, false); } } else {}</script>  
+    
+<script> document.body.addEventListener('touchstart',function() { document.getElementById('v0').play(); },false); </script>    
+
+<script>
+function changeText(text) { var display = document.getElementById('changethis'); display.style.opacity = 0; display.style.transform = "translateX(20px)"; setTimeout(function(){ display.innerHTML = ""; display.innerHTML = text; display.style.opacity = 1; display.style.transform = "translateX(0px)";}, 500); }    
+function changeText2(text2) { var display2 = document.getElementById('changethis2'); display2.style.opacity = 0;  display2.style.transform = "translateY(20px)"; setTimeout(function(){ display2.innerHTML = ""; display2.innerHTML = text2; display2.style.opacity = 1; display2.style.transform = "translateY(0px)"; }, 500);}    
+function changeText3(text3) { var display3 = document.getElementById('changethis3'); display3.style.opacity = 0;  display3.style.transform = "translateY(20px)"; setTimeout(function(){ display3.innerHTML = ""; display3.innerHTML = text3; display3.style.opacity = 1; display3.style.transform = "translateY(0px)"; }, 500);}
+</script>  
+    
+<script>
+function sideScroll() { let sider = document.querySelectorAll(".sidescroll"); for (let i = 0; i < sider.length; i++) { var start = this.scrollY - sider[i].offsetTop + window.innerHeight; var stop = this.scrollY - sider[i].offsetTop - sider[i].clientHeight; sider[i].style.width = "1000vw"; sider[i].style.transform = "translateX(" + window.pageYOffset / 5 + "px)"; if ("ontouchstart" in document.documentElement) { sider[i].style.transition = "transform 0s linear";} } requestAnimationFrame(sideScroll); } requestAnimationFrame(sideScroll);
+</script>
+    
+<script>
+function showTop() { var topbutton = document.getElementById("scrolltop"); if ( window.pageYOffset > 1200 ) { topbutton.style.opacity = 0.5; topbutton.style.pointerEvents = 'auto'; } else { topbutton.style.opacity = 0; topbutton.style.pointerEvents = 'none'; } requestAnimationFrame(showTop); }; requestAnimationFrame(showTop);     
+</script> 
+    
+<script>
+let r = 0; const loop = () => { var html = document.getElementsByTagName("html")[0]; r++; html.style.setProperty("--changing", `hsla(${r/1.5}, 100%, 50%, 0.999)`); requestAnimationFrame(loop); }; requestAnimationFrame(loop);  
+</script>
+    
+
+    
+
+</body></html>
